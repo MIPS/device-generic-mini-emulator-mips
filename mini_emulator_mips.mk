@@ -21,7 +21,6 @@ PRODUCT_DEVICE := mini-emulator-mips
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := mini-emulator-mips
 
-# no 3.4 kernel yet. will migrate later
 LOCAL_KERNEL := prebuilts/qemu-kernel/mips/kernel-qemu
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
